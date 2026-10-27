@@ -1,0 +1,10 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Zip de la base de datos
+data/*.zip
+data/raw/*.csv
+
+# archivos
+notas.txt

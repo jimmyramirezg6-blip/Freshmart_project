@@ -1,0 +1,10 @@
+#  install  -- pip install -r requirements.txt 
+# Para poder descargar los requerimientos ejecuta el comando python -m pip install -r requirements.txt
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+
+
+# Conexión a PostgreSQL
+psycopg[binay]>=3.2
+

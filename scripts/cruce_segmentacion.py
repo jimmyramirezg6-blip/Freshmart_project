@@ -20,7 +20,7 @@ pedidos['fecha_pedido'] = fechas
 fecha_corte = pd.Timestamp('2024-06-15')
 pedidos_recientes = pedidos[
     (pedidos['fecha_pedido'] > fecha_corte) &
-    (pedidos['fecha_pedido'] != 'cancelado')
+    (pedidos['estado'] != 'cancelado')
 ]
 # Paso 2: Contar pedidos por cliente
 conteo = (

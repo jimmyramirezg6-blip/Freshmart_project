@@ -3,7 +3,8 @@
 pandas>=2.2
 numpy>=1.26
 matplotlib>=3.8
-
+sqlalchemy 
+psycopg2-binary
 
 # Conexión a PostgreSQL
 psycopg[binay]>=3.2
